@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int number = 0;
@@ -6,13 +6,14 @@ int main()
     scanf("%d", &number);
 
     printf("Table of %d", number);
-        printf("\n");
+    printf("\n");
 
     for (int i = 1; i <= 10; i++)
     {
-        
-        printf("%d x %d = %d \n", number,i,number*i);
+
+        printf("%d x %d = %d \n", number, i, number * i);
     }
-    
+// this is the change numbern 3;
+
     return 0;
 }
